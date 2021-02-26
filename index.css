@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: white;
+}
+
+.navbar {
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+}
+
+.MS {
+  color: #5f5de9;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.home {
+  border: 1px solid white;
+  border-radius: 4%;
+  padding: 5px;
+}
+
+.home h3 {
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.home p {
+  padding-left: 5px;
+  color: #5f5de9;
+}
+
+.addtodo {
+  margin: 5px;
+  border: 1px solid white;
+}
+
+.addtodo:hover {
+  box-shadow: 1px 3px 5px rgba(255, 255, 255, 0.1);
+}
+
+.addtodo h2 {
+  font-size: 20px;
+  color: rgba(179, 199, 223, 0.5);
+  
+}
+
+.todo-preview {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
+}
+
+.todo-preview:hover {
+  box-shadow: 1px 3px 5px rgba(255, 255, 255, 0.1);
+}
+
+.todo-preview h2 {
+  font-size: 20px;
+  color: rgb(179, 199, 223);
+}
+
+.done {
+  background-color: inherit;
+  float: right;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition-duration: 0.2s;
+  outline: none;
+}
+
+.delete {
+  background-color: inherit;
+  float: right;
+  margin-left: 10px;
+  margin-right: 7px;
+  margin-top: 4px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition-duration: 0.2s;
+  outline: none;
+}
+
+.delete:hover {
+  background-color: rgb(206, 110, 110);
+  border-radius: 20%;
+}
+
+.items {
+  padding: 8px;
+}
+
+.header {
+  width: 100%;
+  height: 937px;
+  background-image: url(background.gif);
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-top: 2px solid white;
+}
+
+.footer h1 {
+  color: #5f5de9;
+  font-size: 20px;
+ }
+
+.footer p {
+  display: inline-block;
+  padding: 10px;
+  color: #5f5de9;
+ }
+
+.links a {
+  color: #5f5de9;
+  font-size: 30px;
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.active {
+  text-decoration: overline;
+}
+
+.rest {
+  text-decoration: none;
+}
+
+.rest:hover {
+  text-decoration: overline;
+}
+
+.addtodo input {
+  width: 100%;
+  height: 100%;
+  color: rgb(179, 199, 223);
+  background-color: inherit;
+  border: none;
+  padding: 10px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.all {
+  text-decoration: overline;
+  font-size: 11px;
+}
+
+
+.done input {
+  margin-top: 1px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
